@@ -21,9 +21,45 @@
 
         <div class="content-wrapper">
             <main>
+                <section class="intro">
+                    <h1>Publications</h1>
+                </section>
                 <section class="publications">
-                    <h2>Publications</h2>
-                    <p>This page is in progress :D</p>
+                    <div>
+                        <h2>Color: A Framework for Applying Graph Coloring to Subgraph Cardinality Estimation</h2>
+                        Kyle Deeds*, Diandre Miguel Sabale*, Moe Kayali, Dan Suciu <br>
+                        VLDB 2025 <br>
+                        <a href="https://www.vldb.org/pvldb/vol18/p130-deeds.pdf">[PDF]</a> <a href="">[Arxiv]</a>
+                        <p>
+                            Graph workloads are difficult for traditional query optimizers because
+                            they feature large queries with frequent joins and complex correlations.
+                            COLOR applies a quasi-stable coloring to a graph, such that nodes in one color
+                            have a similar number of edges to nodes in another color. By treating 
+                            groups of nodes that share the same color as supernodes, we create a compressed version
+                            of the graph. We show that using this smaller graph to calculate cardinality estimates
+                            is efficient and accurate. Notably, it is a novel application of graph theory to query optimization.
+                        </p>
+                        <img src="assets/images/color.png" alt="COLOR Compression" class="publication-pic">
+                    </div>
+                </section>
+                <section class="publications">
+                    <div>
+                        <h2>PatternVis: A Tool for Relational Pattern Visualization</h2>
+                        Diandre Miguel Sabale, Wolfgang Gatterbauer <br>
+                        SIGMOD 2025 (Demo) <br>
+                        <a href="https://dl.acm.org/doi/pdf/10.1145/3722212.3725128">[PDF]</a> <a href="">[Arxiv]</a>
+                        <p>
+                            Query interpretation is crucial for education and practice, but it is especially growing
+                            more important as LLMs facilitate the development of Text2SQL tools. Relational Diagrams are
+                            one way to represent SQL queries, using the first-order logic in a query to define
+                            semantically-focused visualizations. They have been shown to improve the speed and accuracy of
+                            query pattern interpretation. We extend these diagrams for operations like CTEs and aggregations,
+                            then demonstrate PatternVis, a simple tool which automatically generates diagrams
+                            from SQL.
+                        </p>
+                        <img src="assets/images/diagram.png" alt="Relational Diagram" class="publication-pic">
+                    </div>
+                    
                 </section>
             </main>
         </div>

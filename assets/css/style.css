@@ -48,6 +48,29 @@ header, footer {
   object-fit: cover;
 }
 
+.publication-pic {
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.publications {
+  display: flex;
+  justify-content: center;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+  box-shadow: 7px 7px 2px #d1d1d1;
+  margin-bottom: 2em;
+}
+
+.intro {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
 .about-text {
   flex: 1;
 }
