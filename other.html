@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://kit.fontawesome.com/a6c84306cf.js" crossorigin="anonymous"></script>
   <script src="assets/js/email.js"></script>
+  <script src="assets/js/popup.js"></script>
 </head>
 
 <body>
@@ -24,9 +25,21 @@
                 <section class="other">
                     <h2>Other Stuff</h2>
                     <p>I was born in Manila, Philippines and grew up around Seattle, Washington.</p>
-                    <p>I play video games with my family, fold origami, and do racket sports. In my spare time, I do database research.</p>
-                    <p>My favorite Pokemon are Shedinja, Pichu, Porygon-Z, Greninja, and Sudowoodo. I compete in Pokemon TCG tournaments.</p>
+                    <p>I play video games with my family, fold origami, and practice racket sports. In my spare time, I do database research.</p>
+                    <p>My favorite Pokemon are 
+                        <span class="pokemon" id="shedinja" onmouseover="showImage('shedinja','assets/images/shedinja.png')" onmouseout="hideImage('shedinja')">Shedinja</span>, 
+                        <span class="pokemon" id="pichu" onmouseover="showImage('pichu','assets/images/pichu.png')" onmouseout="hideImage('pichu')">Pichu</span>, 
+                        <span class="pokemon" id="porygon" onmouseover="showImage('porygon','assets/images/porygonz.png')" onmouseout="hideImage('porygon')">Porygon-Z</span>, 
+                        <span class="pokemon" id="greninja" onmouseover="showImage('greninja','assets/images/greninja.png')" onmouseout="hideImage('greninja')">Greninja</span>, 
+                        <span class="pokemon" id="sudowoodo" onmouseover="showImage('sudowoodo','assets/images/sudowoodo.png')" onmouseout="hideImage('sudowoodo')">Sudowoodo</span>, and 
+                        <span class="pokemon" id="sableye" onmouseover="showImage('sableye','assets/images/sableye.png')" onmouseout="hideImage('sableye')">Sableye</span>. 
+                        I compete in Pokemon TCG tournaments.</p>
                 </section>
+                <div class="center-content">                
+                    <img src="assets/images/tourney.jpeg" width="300px">
+                    <p style="font-size: 11px;">Me and my brothers celebrating after I won a small</p>
+                    <p style="font-size: 11px;">Pokemon tourney in Seattle, circa 2017.</p>
+                </div>
             </main>
         </div>
 

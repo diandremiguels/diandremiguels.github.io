@@ -157,3 +157,12 @@ a.fa-brands:hover, a.fa-brands:active {
   color: #005999;
   text-decoration: none
 }
+
+.pokemon {
+  color: maroon;
+}
+
+.center-content {
+  margin-top: 2em;
+  text-align: center;
+}
